@@ -1,0 +1,7 @@
+{% extends "include/layout.twig" %}
+
+{% block content %}
+    {% for work in works %}
+      {% include 'include/thumbnail.twig' with {'work': work} %}
+    {% endfor %}    
+{% endblock %}

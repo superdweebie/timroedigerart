@@ -1,0 +1,49 @@
+.thumbnail {
+    position: relative;
+    width: 200px;
+    height: 200px;  
+    float: left;
+    margin-right: @space;
+    margin-bottom: @space;
+}
+
+.thumbnail:hover img {
+    opacity: 0.6;
+}
+
+.thumbnail:hover .caption-background {
+    opacity: 0.8;
+}
+
+.thumbnail:hover .caption {
+    opacity: 1;
+}
+
+.thumbnail img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: opacity .5s ease-in-out;     
+}
+
+.thumbnail .caption-background, .thumbnail .caption {
+    padding: @space;
+    font-size: smaller;
+    font-variant: small-caps;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 170px;
+    color: @white;    
+}
+
+.thumbnail .caption-background {
+    background-color: @gray;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;     
+}
+
+.thumbnail .caption {
+    color: @white;
+    opacity: 0;
+}

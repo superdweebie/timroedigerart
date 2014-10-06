@@ -1,0 +1,13 @@
+{% extends "src/twig/include/layout.twig" %}
+
+{% block content %}
+    <div class='work'>
+        <img src="{{ slug }}.jpg" />
+        <div class="caption">
+            {{ title }} <br />
+            medium: {{ medium }} <br />
+            dimensions: {{ width }}mm x {{ height }}mm<br />
+            price: ${{ price }}
+        </div>        
+    </div>
+{% endblock %}
