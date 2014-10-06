@@ -17,8 +17,6 @@ var argv = require('yargs').argv;
 var buildType = 'dev';
 if (argv.dist) buildType = 'dist'
 
-console.log(argv);
-
 var sourcePaths = {
    dev: {
        js: ['src/js/**/*.js', 'tools/livereload.js'],
@@ -122,7 +120,7 @@ gulp.task('dev-server', function(){
 
 gulp.task('main', ['img', 'gallery', 'twig']);
 
-gulp.task('deploy', ['main'], function(){
+gulp.task('deploy', function(){
   gulp.src('dist/**/*')
     .pipe(ghPages());  
 });
