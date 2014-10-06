@@ -1,4 +1,0 @@
-timroedigerart
-==============
-
-timroedigerart.com.au
