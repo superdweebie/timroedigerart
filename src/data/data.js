@@ -20,7 +20,7 @@ module.exports = {
             width: 605,
             height: 605,
             price: 200
-          },  
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -31,7 +31,7 @@ module.exports = {
             width: 605,
             height: 605,
             price: 200
-          },          
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -42,7 +42,7 @@ module.exports = {
             width: 130,
             height: 130,
             price: 250
-          },          
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -53,7 +53,7 @@ module.exports = {
             width: 710,
             height: 710,
             price: 250
-          },          
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -64,7 +64,7 @@ module.exports = {
             width: 200,
             height: 255,
             price: 120
-          },  
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -75,7 +75,7 @@ module.exports = {
             width: 230,
             height: 300,
             price: 120
-          },          
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -97,7 +97,7 @@ module.exports = {
             width: 305,
             height: 305,
             price: 120
-          },  
+          },
           {
             active: 'oil',
             basePath: '../../',
@@ -108,41 +108,8 @@ module.exports = {
             width: 760,
             height: 500,
             price: 200
-          },          
-          {
-            active: 'oil',
-            basePath: '../../',
-            path: 'gallery/oil',
-            slug: 'winmalee-three-1',
-            title: 'Winmalee Three 1',
-            medium: 'oil on canvas',
-            width: 350,
-            height: 710,
-            price: 250
-          },
-          {
-            active: 'oil', 
-            basePath: '../../',            
-            path: 'gallery/oil',
-            slug: 'winmalee-three-2',            
-            title: 'Winmalee Three 2',
-            medium: 'oil on canvas',
-            width: 350,
-            height: 860,
-            price: 250
-          },
-          {
-            active: 'oil', 
-            basePath: '../../',            
-            path: 'gallery/oil',
-            slug: 'winmalee-three-3',           
-            title: 'Winmalee Three 3',
-            medium: 'oil on canvas',
-            width: 300,
-            height: 750,
-            price: 250
           }
-        ]      
+        ]
   },
   acrylic: {
       title: 'Acrylic',
@@ -169,7 +136,7 @@ module.exports = {
             width: 2040,
             height: 770,
             price: 450
-          },          
+          },
           {
             active: 'acrylic',
             basePath: '../../',
@@ -180,7 +147,7 @@ module.exports = {
             width: 185,
             height: 140,
             price: 80
-          },          
+          },
           {
             active: 'acrylic',
             basePath: '../../',
@@ -191,7 +158,7 @@ module.exports = {
             width: 185,
             height: 140,
             price: 80
-          },          
+          },
           {
             active: 'acrylic',
             basePath: '../../',
@@ -202,9 +169,9 @@ module.exports = {
             width: 300,
             height: 000,
             price: 350
-          },          
-        ]      
-  },  
+          },
+        ]
+  },
   drawing: {
       title: 'Drawing',
       active: 'drawing',
@@ -241,16 +208,16 @@ module.exports = {
             width: 200,
             height: 140,
             price: 80
-          }          
-        ]      
-  },   
+          }
+        ]
+  },
   purchase: {
       title: 'Purchase',
-      active: 'purchase'      
+      active: 'purchase'
   },
   contact: {
       title: 'Contact',
-      active: 'contact'      
-  },  
+      active: 'contact'
+  },
 }
 
