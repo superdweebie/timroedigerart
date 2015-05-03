@@ -36,6 +36,17 @@ module.exports = {
             active: 'oil',
             basePath: '../../',
             path: 'gallery/oil',
+            slug: 'suburban-sunset',
+            title: 'Suburban Sunset',
+            medium: 'oil on canvas',
+            width: 605,
+            height: 360,
+            price: 200
+          },
+          {
+            active: 'oil',
+            basePath: '../../',
+            path: 'gallery/oil',
             slug: 'cicadas',
             title: 'Cicadas',
             medium: 'five pannels, oil on canvas',
@@ -63,17 +74,6 @@ module.exports = {
             medium: 'oil on canvas',
             width: 200,
             height: 255,
-            price: 120
-          },
-          {
-            active: 'oil',
-            basePath: '../../',
-            path: 'gallery/oil',
-            slug: 'shedding',
-            title: 'Shedding',
-            medium: 'oil on canvas',
-            width: 230,
-            height: 300,
             price: 120
           },
           {
@@ -185,17 +185,6 @@ module.exports = {
             medium: 'pencil on paper',
             width: 140,
             height: 140,
-            price: 80
-          },
-          {
-            active: 'drawing',
-            basePath: '../../',
-            path: 'gallery/drawing',
-            slug: 'shedding',
-            title: 'Shedding',
-            medium: 'charcoal on paper',
-            width: 145,
-            height: 190,
             price: 80
           },
           {
