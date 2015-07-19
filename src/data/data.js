@@ -19,7 +19,7 @@ module.exports = {
             medium: 'oil on canvas',
             width: 605,
             height: 605,
-            price: 200
+            price: 250
           },
           {
             active: 'oil',
@@ -30,7 +30,7 @@ module.exports = {
             medium: 'oil on canvas',
             width: 605,
             height: 605,
-            price: 200
+            price: 250
           },
           {
             active: 'oil',
@@ -63,7 +63,7 @@ module.exports = {
             medium: 'oil on canvas',
             width: 710,
             height: 710,
-            price: 250
+            price: 300
           },
           {
             active: 'oil',
@@ -107,7 +107,7 @@ module.exports = {
             medium: 'oil on canvas',
             width: 760,
             height: 500,
-            price: 200
+            price: 230
           }
         ]
   },
